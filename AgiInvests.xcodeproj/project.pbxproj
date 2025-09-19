@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C2346E3AB75133A80E82F0A /* (null) in Sources */ = {isa = PBXBuildFile; };
+		1124492FAB6712119B7F7744 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		16A446E0872E97A4BC851953 /* InvestmentListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E04451993DB3561267CF459 /* InvestmentListViewModel.swift */; };
+		1A0000012A00000000000001 /* AgiInvestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000002A00000000000001 /* AgiInvestsApp.swift */; };
+		1A0000052A00000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0000042A00000000000001 /* Assets.xcassets */; };
+		2EEA44CB93C72B9F753C9C79 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0D442580D0A869727D4243 /* NetworkingService.swift */; };
+		355347AEA5B24A2C1E277F4C /* ColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F104A62B6AB0A91B46680AC /* ColorHex.swift */; };
+		49B944B1802B0FE45A0357A0 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8A4963BD43109DCE5BB128 /* MainTabView.swift */; };
+		5F3C4190BE7767CB0536B952 /* InvestmentListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9433488FAE27F4E0CC82FF24 /* InvestmentListItemView.swift */; };
+		621C4E1DBAB8C24771E0CBB9 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2143D4AC064EC39C8E2B28 /* AppColors.swift */; };
+		636D44419F878F52D8A62114 /* InvestmentCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5D411DAA6F06BD0D6CCCD1 /* InvestmentCategory.swift */; };
+		685E4C7DA2FCA80B657E7601 /* CryptoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2B4067A90542008C5DB00C /* CryptoModels.swift */; };
+		701C4772BA495C1503608264 /* InvestmentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAF4A04B3F10563DF87D0AA /* InvestmentHeaderView.swift */; };
+		75934438AACCD55AB5F72A3E /* InvestmentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13B455B863E460C7A2599BF /* InvestmentListView.swift */; };
+		76774FBFB14B1E83DA595A92 /* AppSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2443CF963FF4535B4E866F /* AppSpacing.swift */; };
+		803545B29658513CAE04BEBF /* InvestmentsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BA40D4A51318F8478B2E96 /* InvestmentsListView.swift */; };
+		84124429B390A38AD00CA3A8 /* AppRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27524888842614546F127C5D /* AppRadius.swift */; };
+		8B7F4FED8E3F5AE45730E5FD /* InvestmentCategoryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AC465881E9130265D67A9B /* InvestmentCategoryCard.swift */; };
+		92CE4FEAA2E5B8B3AD837980 /* InvestmentModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE346A98EA97A9EF480CA1F /* InvestmentModels.swift */; };
+		950E433A8D2B82D521F4E6D4 /* InvestmentsHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AF44D5A386CB12FA361228 /* InvestmentsHomeViewModel.swift */; };
+		970B40B483B4ED9AAB6C692A /* InvestmentBalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7042ACAAE9C29748BACFE4 /* InvestmentBalanceView.swift */; };
+		9D754B9C9B460A86BB2DB650 /* AppTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB984868A863CC0E9FF39D35 /* AppTypography.swift */; };
+		AAA84AD2A06B215805DBDA4B /* InvestmentsHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3E4826954E971FAA37007B /* InvestmentsHomeView.swift */; };
+		AD62430296210E0377990A38 /* InvestmentSectionTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CF495AA91C62409A76EFA0 /* InvestmentSectionTitleView.swift */; };
+		B1584B228A0F8C3E8492DD05 /* CoinGeckoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5749BEAE6367BDE663945D /* CoinGeckoConfig.swift */; };
+		B40544EAB845B23761AD8638 /* StatisticsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999944C3A83B0D486059AE8C /* StatisticsCard.swift */; };
+		B72F4393BA9FBB61A5FD6915 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EA4922882B824C6FEEDE31 /* HTTPClient.swift */; };
+		BF9447FE9C90E905A950A9D2 /* InvestmentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96946BF8CB5866D419895B6 /* InvestmentItem.swift */; };
+		CF7B4C9F9A728E3EC7BA9C05 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		D5DF4C3B88FA938DA47735B4 /* CoinGeckoEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72454CE689828C77A9A04776 /* CoinGeckoEndpoint.swift */; };
+		F5894B82AA37AFD7DFE31088 /* InvestmentActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B74C0187B2635D7CD4B092 /* InvestmentActionsView.swift */; };
+		FEB44E39B12319E29C0A69E6 /* CoinGeckoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA92412CB9CD9DD956D0593C /* CoinGeckoService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05B74C0187B2635D7CD4B092 /* InvestmentActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InvestmentActionsView.swift; path = AgiInvests/Core/DesignSystem/Components/InvestmentActionsView.swift; sourceTree = SOURCE_ROOT; };
+		0E04451993DB3561267CF459 /* InvestmentListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InvestmentListViewModel.swift; path = AgiInvests/Features/InvestmentList/InvestmentListViewModel.swift; sourceTree = SOURCE_ROOT; };
+		1A0000002A00000000000001 /* AgiInvestsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgiInvestsApp.swift; sourceTree = "<group>"; };
+		1A0000042A00000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C5749BEAE6367BDE663945D /* CoinGeckoConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoinGeckoConfig.swift; path = AgiInvests/Core/Networking/CoinGeckoConfig.swift; sourceTree = SOURCE_ROOT; };
+		1FE346A98EA97A9EF480CA1F /* InvestmentModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InvestmentModels.swift; path = AgiInvests/Core/Models/InvestmentModels.swift; sourceTree = SOURCE_ROOT; };
+		27524888842614546F127C5D /* AppRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppRadius.swift; path = AgiInvests/Core/DesignSystem/Radius/AppRadius.swift; sourceTree = SOURCE_ROOT; };
+		3B2443CF963FF4535B4E866F /* AppSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppSpacing.swift; path = AgiInvests/Core/DesignSystem/Spacing/AppSpacing.swift; sourceTree = SOURCE_ROOT; };
+		51CF495AA91C62409A76EFA0 /* InvestmentSectionTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InvestmentSectionTitleView.swift; path = AgiInvests/Core/DesignSystem/Components/InvestmentSectionTitleView.swift; sourceTree = SOURCE_ROOT; };
+		5C8A4963BD43109DCE5BB128 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainTabView.swift; path = AgiInvests/App/MainTabView.swift; sourceTree = SOURCE_ROOT; };
+		6D2B4067A90542008C5DB00C /* CryptoModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CryptoModels.swift; path = AgiInvests/Core/Models/CryptoModels.swift; sourceTree = SOURCE_ROOT; };
+		6F104A62B6AB0A91B46680AC /* ColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ColorHex.swift; path = AgiInvests/Core/Utils/ColorHex.swift; sourceTree = SOURCE_ROOT; };
+		6F7042ACAAE9C29748BACFE4 /* InvestmentBalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InvestmentBalanceView.swift; path = AgiInvests/Core/DesignSystem/Components/InvestmentBalanceView.swift; sourceTree = SOURCE_ROOT; };
+		72454CE689828C77A9A04776 /* CoinGeckoEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoinGeckoEndpoint.swift; path = AgiInvests/Core/Networking/CoinGeckoEndpoint.swift; sourceTree = SOURCE_ROOT; };
+		9433488FAE27F4E0CC82FF24 /* InvestmentListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InvestmentListItemView.swift; path = AgiInvests/Core/DesignSystem/Components/InvestmentListItemView.swift; sourceTree = SOURCE_ROOT; };
+		999944C3A83B0D486059AE8C /* StatisticsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatisticsCard.swift; path = AgiInvests/Core/DesignSystem/Components/StatisticsCard.swift; sourceTree = SOURCE_ROOT; };
+		A13B455B863E460C7A2599BF /* InvestmentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InvestmentListView.swift; path = AgiInvests/Core/DesignSystem/Components/InvestmentListView.swift; sourceTree = SOURCE_ROOT; };
+		A1BA40D4A51318F8478B2E96 /* InvestmentsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InvestmentsListView.swift; path = AgiInvests/Features/InvestmentList/InvestmentsListView.swift; sourceTree = SOURCE_ROOT; };
+		A96946BF8CB5866D419895B6 /* InvestmentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InvestmentItem.swift; path = AgiInvests/Core/Models/InvestmentItem.swift; sourceTree = SOURCE_ROOT; };
+		AB0D442580D0A869727D4243 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkingService.swift; path = AgiInvests/Core/Networking/NetworkingService.swift; sourceTree = SOURCE_ROOT; };
+		B6AC465881E9130265D67A9B /* InvestmentCategoryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InvestmentCategoryCard.swift; path = AgiInvests/Core/DesignSystem/Components/InvestmentCategoryCard.swift; sourceTree = SOURCE_ROOT; };
+		BF5D411DAA6F06BD0D6CCCD1 /* InvestmentCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InvestmentCategory.swift; path = AgiInvests/Core/Models/InvestmentCategory.swift; sourceTree = SOURCE_ROOT; };
+		CEAF4A04B3F10563DF87D0AA /* InvestmentHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InvestmentHeaderView.swift; path = AgiInvests/Core/DesignSystem/Components/InvestmentHeaderView.swift; sourceTree = SOURCE_ROOT; };
+		D0EA4922882B824C6FEEDE31 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HTTPClient.swift; path = AgiInvests/Core/Networking/HTTPClient.swift; sourceTree = SOURCE_ROOT; };
+		D27259382E7B95E70002BC24 /* AgiInvests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgiInvests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA92412CB9CD9DD956D0593C /* CoinGeckoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoinGeckoService.swift; path = AgiInvests/Core/Networking/CoinGeckoService.swift; sourceTree = SOURCE_ROOT; };
+		DB2143D4AC064EC39C8E2B28 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppColors.swift; path = AgiInvests/Core/DesignSystem/Colors/AppColors.swift; sourceTree = SOURCE_ROOT; };
+		DB984868A863CC0E9FF39D35 /* AppTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppTypography.swift; path = AgiInvests/Core/DesignSystem/Typography/AppTypography.swift; sourceTree = SOURCE_ROOT; };
+		F5AF44D5A386CB12FA361228 /* InvestmentsHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InvestmentsHomeViewModel.swift; path = AgiInvests/Features/InvestmentsHome/InvestmentsHomeViewModel.swift; sourceTree = SOURCE_ROOT; };
+		FD3E4826954E971FAA37007B /* InvestmentsHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InvestmentsHomeView.swift; path = AgiInvests/Features/InvestmentsHome/InvestmentsHomeView.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A0000092A00000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FE439691DC220E913BE370 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6F104A62B6AB0A91B46680AC /* ColorHex.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		1A00000B2A00000000000001 = {
+			isa = PBXGroup;
+			children = (
+				1A0000042A00000000000001 /* Assets.xcassets */,
+				D1B743E2AAECE4B49EB44E3D /* App */,
+				3E6B4469A0943C256A02DC89 /* Core */,
+				92F04C31A5A5790E5EE42972 /* Features */,
+				D27259382E7B95E70002BC24 /* AgiInvests.app */,
+			);
+			sourceTree = "<group>";
+		};
+		1E0F4DACBCC32E4421DA2C62 /* InvestmentsHome */ = {
+			isa = PBXGroup;
+			children = (
+				FD3E4826954E971FAA37007B /* InvestmentsHomeView.swift */,
+				F5AF44D5A386CB12FA361228 /* InvestmentsHomeViewModel.swift */,
+			);
+			name = InvestmentsHome;
+			sourceTree = "<group>";
+		};
+		2D4E4757A7FA32FDAF130C18 /* InvestmentList */ = {
+			isa = PBXGroup;
+			children = (
+				A1BA40D4A51318F8478B2E96 /* InvestmentsListView.swift */,
+				0E04451993DB3561267CF459 /* InvestmentListViewModel.swift */,
+			);
+			name = InvestmentList;
+			sourceTree = "<group>";
+		};
+		3E6B4469A0943C256A02DC89 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DE774CF5B41A6D877AC835E1 /* Models */,
+				08FE439691DC220E913BE370 /* Utils */,
+				F4434337A7AEB0A22D848D68 /* Service */,
+				DA914814836CDC615FF87D7A /* DesignSystem */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		62A341D9B5585A2BAC58D9CA /* Spacing */ = {
+			isa = PBXGroup;
+			children = (
+				3B2443CF963FF4535B4E866F /* AppSpacing.swift */,
+			);
+			name = Spacing;
+			sourceTree = "<group>";
+		};
+		78F1478CBF28C015DBA94831 /* Typography */ = {
+			isa = PBXGroup;
+			children = (
+				DB984868A863CC0E9FF39D35 /* AppTypography.swift */,
+			);
+			name = Typography;
+			sourceTree = "<group>";
+		};
+		92F04C31A5A5790E5EE42972 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				1E0F4DACBCC32E4421DA2C62 /* InvestmentsHome */,
+				2D4E4757A7FA32FDAF130C18 /* InvestmentList */,
+			);
+			name = Features;
+			sourceTree = "<group>";
+		};
+		996D4EBDA27B0B4C56E9402C /* Radius */ = {
+			isa = PBXGroup;
+			children = (
+				27524888842614546F127C5D /* AppRadius.swift */,
+			);
+			name = Radius;
+			sourceTree = "<group>";
+		};
+		A69F4D98BEE9FBE016402A72 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CEAF4A04B3F10563DF87D0AA /* InvestmentHeaderView.swift */,
+				6F7042ACAAE9C29748BACFE4 /* InvestmentBalanceView.swift */,
+				05B74C0187B2635D7CD4B092 /* InvestmentActionsView.swift */,
+				51CF495AA91C62409A76EFA0 /* InvestmentSectionTitleView.swift */,
+				A13B455B863E460C7A2599BF /* InvestmentListView.swift */,
+				999944C3A83B0D486059AE8C /* StatisticsCard.swift */,
+				B6AC465881E9130265D67A9B /* InvestmentCategoryCard.swift */,
+				9433488FAE27F4E0CC82FF24 /* InvestmentListItemView.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		D1B743E2AAECE4B49EB44E3D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1A0000002A00000000000001 /* AgiInvestsApp.swift */,
+				5C8A4963BD43109DCE5BB128 /* MainTabView.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		DA914814836CDC615FF87D7A /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				EB56405BADEBF23942ECB671 /* Colors */,
+				78F1478CBF28C015DBA94831 /* Typography */,
+				62A341D9B5585A2BAC58D9CA /* Spacing */,
+				996D4EBDA27B0B4C56E9402C /* Radius */,
+				A69F4D98BEE9FBE016402A72 /* Components */,
+			);
+			name = DesignSystem;
+			sourceTree = "<group>";
+		};
+		DE774CF5B41A6D877AC835E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1FE346A98EA97A9EF480CA1F /* InvestmentModels.swift */,
+				BF5D411DAA6F06BD0D6CCCD1 /* InvestmentCategory.swift */,
+				A96946BF8CB5866D419895B6 /* InvestmentItem.swift */,
+				6D2B4067A90542008C5DB00C /* CryptoModels.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EB56405BADEBF23942ECB671 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				DB2143D4AC064EC39C8E2B28 /* AppColors.swift */,
+			);
+			name = Colors;
+			sourceTree = "<group>";
+		};
+		F4434337A7AEB0A22D848D68 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AB0D442580D0A869727D4243 /* NetworkingService.swift */,
+				D0EA4922882B824C6FEEDE31 /* HTTPClient.swift */,
+				DA92412CB9CD9DD956D0593C /* CoinGeckoService.swift */,
+				1C5749BEAE6367BDE663945D /* CoinGeckoConfig.swift */,
+				72454CE689828C77A9A04776 /* CoinGeckoEndpoint.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A00000E2A00000000000001 /* AgiInvests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0000112A00000000000001 /* Build configuration list for PBXNativeTarget "AgiInvests" */;
+			buildPhases = (
+				1A00000F2A00000000000001 /* Sources */,
+				1A0000092A00000000000001 /* Frameworks */,
+				1A0000102A00000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgiInvests;
+			productName = AgiInvests;
+			productReference = D27259382E7B95E70002BC24 /* AgiInvests.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A0000122A00000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1A00000E2A00000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 1A0000152A00000000000001 /* Build configuration list for PBXProject "AgiInvests" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A00000B2A00000000000001;
+			productRefGroup = 1A00000B2A00000000000001;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A00000E2A00000000000001 /* AgiInvests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A0000102A00000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0000052A00000000000001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A00000F2A00000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0000012A00000000000001 /* AgiInvestsApp.swift in Sources */,
+				49B944B1802B0FE45A0357A0 /* MainTabView.swift in Sources */,
+				92CE4FEAA2E5B8B3AD837980 /* InvestmentModels.swift in Sources */,
+				636D44419F878F52D8A62114 /* InvestmentCategory.swift in Sources */,
+				BF9447FE9C90E905A950A9D2 /* InvestmentItem.swift in Sources */,
+				685E4C7DA2FCA80B657E7601 /* CryptoModels.swift in Sources */,
+				CF7B4C9F9A728E3EC7BA9C05 /* (null) in Sources */,
+				2EEA44CB93C72B9F753C9C79 /* NetworkingService.swift in Sources */,
+				B72F4393BA9FBB61A5FD6915 /* HTTPClient.swift in Sources */,
+				FEB44E39B12319E29C0A69E6 /* CoinGeckoService.swift in Sources */,
+				B1584B228A0F8C3E8492DD05 /* CoinGeckoConfig.swift in Sources */,
+				D5DF4C3B88FA938DA47735B4 /* CoinGeckoEndpoint.swift in Sources */,
+				621C4E1DBAB8C24771E0CBB9 /* AppColors.swift in Sources */,
+				9D754B9C9B460A86BB2DB650 /* AppTypography.swift in Sources */,
+				76774FBFB14B1E83DA595A92 /* AppSpacing.swift in Sources */,
+				84124429B390A38AD00CA3A8 /* AppRadius.swift in Sources */,
+				B40544EAB845B23761AD8638 /* StatisticsCard.swift in Sources */,
+				8B7F4FED8E3F5AE45730E5FD /* InvestmentCategoryCard.swift in Sources */,
+				5F3C4190BE7767CB0536B952 /* InvestmentListItemView.swift in Sources */,
+				AAA84AD2A06B215805DBDA4B /* InvestmentsHomeView.swift in Sources */,
+				950E433A8D2B82D521F4E6D4 /* InvestmentsHomeViewModel.swift in Sources */,
+				803545B29658513CAE04BEBF /* InvestmentsListView.swift in Sources */,
+				16A446E0872E97A4BC851953 /* InvestmentListViewModel.swift in Sources */,
+				1124492FAB6712119B7F7744 /* (null) in Sources */,
+				0C2346E3AB75133A80E82F0A /* (null) in Sources */,
+				355347AEA5B24A2C1E277F4C /* ColorHex.swift in Sources */,
+				701C4772BA495C1503608264 /* InvestmentHeaderView.swift in Sources */,
+				970B40B483B4ED9AAB6C692A /* InvestmentBalanceView.swift in Sources */,
+				F5894B82AA37AFD7DFE31088 /* InvestmentActionsView.swift in Sources */,
+				AD62430296210E0377990A38 /* InvestmentSectionTitleView.swift in Sources */,
+				75934438AACCD55AB5F72A3E /* InvestmentListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A0000132A00000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A0000142A00000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A0000162A00000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitor.AgiInvests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A0000172A00000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitor.AgiInvests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A0000112A00000000000001 /* Build configuration list for PBXNativeTarget "AgiInvests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0000162A00000000000001 /* Debug */,
+				1A0000172A00000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A0000152A00000000000001 /* Build configuration list for PBXProject "AgiInvests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0000132A00000000000001 /* Debug */,
+				1A0000142A00000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A0000122A00000000000001 /* Project object */;
+}
