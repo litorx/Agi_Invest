@@ -91,7 +91,6 @@ open AgiInvests.xcodeproj
 
 ##  Screenshots
 
-*Adicione screenshots da aplicação aqui*
 
 ##  Licença
 
