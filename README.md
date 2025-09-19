@@ -91,6 +91,8 @@ open AgiInvests.xcodeproj
 
 ##  Screenshots
 
+<img width="440" height="899" alt="Captura de Tela 2025-09-19 às 10 43 08" src="https://github.com/user-attachments/assets/09c899d0-8712-40be-99f8-db6859bc0690" />  <img width="440" height="899" alt="Captura de Tela 2025-09-19 às 13 40 51" src="https://github.com/user-attachments/assets/fe539e32-0698-47de-878d-d39630d23e67" />   
+
 
 ##  Licença
 
