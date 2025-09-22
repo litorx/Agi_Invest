@@ -10,9 +10,15 @@ O AgiInvests é uma aplicação financeira que permite aos usuários:
 - **Visualizar estatísticas** e gráficos de performance
 - **Monitorar portfólio** em tempo real
 
+##  Screenshots
+
+<img width="220" height="450" alt="Captura de Tela 2025-09-19 às 10 43 08" src="https://github.com/user-attachments/assets/09c899d0-8712-40be-99f8-db6859bc0690" />  <img width="220" height="450" alt="Captura de Tela 2025-09-19 às 13 40 51" src="https://github.com/user-attachments/assets/fe539e32-0698-47de-878d-d39630d23e67" />   
+
+
 ##  Arquitetura
 
 O projeto segue uma arquitetura **MVVM** (Model-View-ViewModel) com as seguintes camadas:
+
 
 ###  Estrutura do Projeto
 
@@ -88,11 +94,6 @@ open AgiInvests.xcodeproj
 ```
 
 3. Execute o projeto no simulador ou dispositivo
-
-##  Screenshots
-
-<img width="220" height="450" alt="Captura de Tela 2025-09-19 às 10 43 08" src="https://github.com/user-attachments/assets/09c899d0-8712-40be-99f8-db6859bc0690" />  <img width="220" height="450" alt="Captura de Tela 2025-09-19 às 13 40 51" src="https://github.com/user-attachments/assets/fe539e32-0698-47de-878d-d39630d23e67" />   
-
 
 ##  Licença
 
